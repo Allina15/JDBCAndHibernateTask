@@ -1,6 +1,6 @@
 package peaksoft.dao;
 
-import peaksoft.model.User;
+import peaksoft.model.users;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ public interface UserDao {
 
     void removeUserById(long id);
 
-    List<User> getAllUsers();
+    List<users> getAllUsers();
 
     void cleanUsersTable();
 }
